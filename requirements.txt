@@ -3,6 +3,7 @@ langchain
 langchain-core
 langchain-groq
 langchain-community
+langchain-huggingface
 streamlit
 streamlit-option-menu
 python-dotenv
