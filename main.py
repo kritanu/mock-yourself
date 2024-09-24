@@ -115,11 +115,10 @@ if selected == "Reference":
 # ----- SETUP ABOUT MENU ------
 if selected == "About":
     with st.expander("About this App"):
-        st.markdown(''' This app allows you to chat with your PDF documents. It has following functionality:
+        st.markdown(''' This app allows crafts questions for you based on your resume.
 
-    - Allows to chat with multiple PDF documents
-    - Support of Groq AI inference technology 
-    - Display the response context and document reference
+    - Allows to chat with your own resume.
+    - Displays the response context and document reference.
 
         ''')
     with st.expander("Which Large Language models are supported by this App?"):
