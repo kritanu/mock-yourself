@@ -20,7 +20,7 @@ load_dotenv()
 def get_api_key():
     # Try to get the API key from st.secrets first
     try:
-        groq_api_key = st.secrets("GROQ_API_KEY")
+        groq_api_key = st.secrets["GROQ_API_KEY"]
         
         return groq_api_key
     except Exception as e:
