@@ -115,7 +115,7 @@ if selected == "Reference":
 # ----- SETUP ABOUT MENU ------
 if selected == "About":
     with st.expander("About this App"):
-        st.markdown(''' This app allows crafts questions for you based on your resume.
+        st.markdown(''' This app crafts questions for you based on your resume.
 
     - Allows to chat with your own resume.
     - Displays the response context and document reference.
